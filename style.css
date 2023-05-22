@@ -1,0 +1,83 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : May 2023 
+    Author     : waldo
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "ariel", sans-serif;
+}
+
+body{
+    background-color: #3d85c6;
+}
+
+.wrapper{
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.container{
+    width: 50%;
+    background-color: #3d85c6;
+    padding: 30px 20px;
+    box-shadow: 0 20px 65px lightblue;
+    position: absolute;
+    border-radius: 50px;
+    text-align: center;
+    top: 40%;
+    left: 25%;
+    
+    
+}
+
+.container:after {
+    content: "";
+    position: absolute;
+    width: 110%;
+    height: 120%;
+    background-color: #6fa8dc ;
+    z-index: -1;
+    top: -10%;
+    left: -5%;
+    border-radius: 50px;
+    
+}
+
+.container p{
+    color: white;
+    line-height: 2;
+    font-size: 18px;
+    
+}
+
+.container h2{
+    color: white;
+    margin: 20px 0 60px 0;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.container button {
+    background-color: white;
+    border: none;
+    padding: 15px 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3d85c6;
+    cursor: pointer;
+}
+
+
+
+
